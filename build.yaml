@@ -4,6 +4,7 @@
 # control, add individual board + shield combinations to
 # the `include` property, e.g:
 #
+#
 # board: [ "nRF52840 M.2 Module" ]
 # shield: [ "corne_left", "corne_right" ]
 # include:
