@@ -79,7 +79,7 @@
 &kp TAB     &kp Q           &kp W         &kp E       &kp R      &kp T                                          &kp Y                  &kp U      &kp I          &kp O   &kp P      &hm GRAVE EQUAL
 &kp ESCAPE  &kp LEFT_SHIFT  &kp A         &kp S       &kp D      &kp F               &kp G                                             &kp H      &kp J          &kp K   &kp L      &kp RIGHT_BRACKET  &kp BACKSLASH  &kp RIGHT_SHIFT
 &kp LCTRL   &kp Z           &kp X         &kp C       &kp V      &kp B               &mo 1  &hm K_COPY K_PASTE  &hm PAGE_UP PAGE_DOWN  &tog 3     &kp N          &kp M   &kp COMMA  &kp PERIOD         &kp SLASH      &kp INT_RO
-            &kp LGUI        &kp LEFT_ALT  &kp DELETE  &kp SPACE  &mt LEFT_GUI ENTER                             &kp ENTER              &kp SPACE  &kp BACKSPACE  &tog 2  &trans
+            &kp LGUI        &kp LEFT_ALT  &kp DELETE  &kp SPACE  &mt LEFT_GUI ENTER                             &kp ENTER              &kp SPACE  &kp BACKSPACE  &tog 2  &mo 3
             >;
 
             sensor-bindings =
@@ -113,11 +113,11 @@
 
         SOLIDWORKS {
             bindings = <
-&kp ESC    &kp F1     &kp F2    &kp F3  &kp F4     &kp F5                     &kp F6     &kp F7     &kp F8  &kp F9    &kp F10   &kp F11
-&kp TAB    &trans     &trans    &trans  &trans     &trans                     &trans     &trans     &trans  &trans    &trans    &kp F12
-&trans     &kp LSHFT  &trans    &trans  &trans     &trans     &trans                     &trans     &trans  &trans    &trans    &trans   &kp RSHFT  &trans
-&kp LCTRL  &trans     &trans    &trans  &trans     &trans     &trans  &trans  &trans     &trans     &trans  &trans    &trans    &trans   &trans     &kp RCTRL
-           &kp LALT   &kp LGUI  &trans  &kp SPACE  &kp ENTER                  &kp ENTER  &kp SPACE  &trans  &kp RGUI  &kp RALT
+&kp ESC    &kp F1     &kp F2    &kp F3  &kp F4     &kp F5                     &kp F6     &kp F7          &kp F8        &kp F9          &kp F10          &kp F11
+&kp TAB    &trans     &trans    &trans  &trans     &trans                     &trans     &trans          &trans        &trans          &trans           &kp F12
+&trans     &kp LSHFT  &trans    &trans  &trans     &trans     &trans                     &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &kp RSHFT  &trans
+&kp LCTRL  &trans     &trans    &trans  &trans     &trans     &trans  &trans  &trans     &trans          &trans        &trans          &trans           &trans   &trans     &kp RCTRL
+           &kp LALT   &kp LGUI  &trans  &kp SPACE  &kp ENTER                  &kp ENTER  &kp SPACE       &trans        &kp RGUI        &kp RALT
             >;
         };
 
